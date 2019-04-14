@@ -1,2 +1,2 @@
-# LeetCode
-for leetcode submit
+# CodeTrain
+for algorithm submit
