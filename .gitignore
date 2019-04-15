@@ -61,6 +61,8 @@ NALToDecoder0_dump.*
 **/Debug/
 **/Release/
 x64/
+packages/
+*.config
 
 build/mac/*.264
 build/mac/*.dylib
