@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\src\DuplicateNumber.cpp" />
     <ClCompile Include="..\..\src\Operator_equal.cpp" />
     <ClCompile Include="..\..\src\Singleton.cpp" />
   </ItemGroup>

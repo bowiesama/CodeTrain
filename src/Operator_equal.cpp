@@ -61,7 +61,7 @@ CMyString::~CMyString(void)
 
 }
 
-//#ifndef DEBUG
+#ifndef DEBUG
 int main()
 {
 	char m_pdata[9] = "Testcode";
@@ -69,4 +69,4 @@ int main()
 	CMyString m_String2 = m_String;
 	return 0;
 }
-//#endif
+#endif

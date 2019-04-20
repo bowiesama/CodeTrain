@@ -15,6 +15,9 @@
     <ClCompile Include="..\..\src\Singleton.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\DuplicateNumber.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\inc\Prefix_Test.h">
