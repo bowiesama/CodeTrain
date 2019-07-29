@@ -23,9 +23,9 @@ bool duplicate(int numbers[], int length)
 	return false;
 }
 
-int main()
+/*int main()
 {
 	int numbers[10] = { 0, 1, 1, 2, 3, 4, 6, 7, 5, 1 };
 	bool isDuplicate = duplicate(numbers, 10);
 	return 0;
-}
+}*/
