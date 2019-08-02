@@ -12,53 +12,8 @@ using namespace std;
      }
      return 0;
  }*/
-//--------------------------------------------------------------------------
-/*extern void swap_with_zero(int* array, int len, int n);
- class Solution {
- public:
- /**
- * µ˜”√∑Ω∑®swap_with_zero¿¥∂‘arrayΩ¯––≈≈–Ú
- */
-/*void sort(int* array, int len) {
- int temp = 0;
- int index = 1;
- swap_with_zero(array, len, array[0]);
- while (index < len)
- {
- while (array[index] != index)
- {
- temp = array[index];
- swap_with_zero(array, len, temp);
- swap_with_zero(array, len, array[temp]);
- swap_with_zero(array, len, temp);
- }
- index++;
- }
- }
- };*/
-//
-//-------------------------------------------------------------//
-/*
- int maxScore(vector<int> score, int head, int tail)
- {
- int length = score.size();
- int max = 0;
- if (head > tail)
- {
- int temp = head;
- head = tail;
- tail = temp;
- }
- if (head == tail)
- max = score[head - 1];
- for(int i = head - 1; i < tail - 1; i++)
- {
- if (score[i] > max)
- max = score[i];
- }
- return max;
- }
- int main()
+//-----------------------------------
+ /*int main()
  {
  //Get numbero of student and option
  int stuNum = 0;
@@ -72,8 +27,8 @@ using namespace std;
  vector<int> res;
  for (int i = 0; i < stuNum; i++)
  {
- scanf_s(" %d", &score);//notice space
- scoreList.push_back(score);
+     scanf(" %d", &score);//notice space
+     scoreList.push_back(score);
  }
  // Get option
  {
@@ -108,10 +63,31 @@ using namespace std;
  
  return 0;
  }*/
+//-----------------------------------
+/*
 int main()
 {
     string str;
     getline(cin,str);//input a string, support space
-    cout<<str<<endl;
+    int length = str.length();
+    return 0;
+}*/
+/*int main()
+{
+    int a[27] = { 0 }, c, sum = 0;
+    while((c=getchar())>32)
+        if (!a[c - 65])
+        {
+            sum++;
+            a[c - 65] = 1;
+        }
+    if (sum > 2)
+        cout << 0;
+    else
+        cout << sum;
+}*/
+
+int main()
+{
     return 0;
 }
